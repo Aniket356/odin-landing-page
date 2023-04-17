@@ -74,6 +74,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
+    min-width: 350px;
 }
 
 .title-section {
@@ -107,6 +108,7 @@ button {
     gap: 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .illustration {
@@ -128,6 +130,7 @@ button {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .quote {
@@ -135,12 +138,47 @@ button {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    padding: 0 400px;
+    padding: 0 300px;
 }
 
 .author {
     font-weight: bold;
     font-size: 20px;
-    margin-left: 1050px;
     margin-top: 15px;
+}
+
+.signup-section {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 700px;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.signup-section h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signup-section button {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+.signup-section p {
+    margin-top: 7px;
+    color: #E5E7EB
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #F9FAF8
 }
